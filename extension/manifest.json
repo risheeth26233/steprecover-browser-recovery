@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "StepRecover — Controlled Demo",
+  "version": "0.1.0",
+  "description": "User-approved recovery for one controlled, keyboard-inaccessible training date picker.",
+  "permissions": ["activeTab", "scripting", "sidePanel"],
+  "host_permissions": ["http://localhost:4173/*"],
+  "background": { "service_worker": "service-worker.js" },
+  "action": { "default_title": "Open StepRecover" },
+  "side_panel": { "default_path": "sidepanel.html" }
+}
