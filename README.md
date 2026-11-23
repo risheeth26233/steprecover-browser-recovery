@@ -76,5 +76,5 @@ Pin or open **StepRecover — Controlled Demo** from the Chrome toolbar while th
 
 - **Prototype implementation:** source, local demo, and unpacked extension build are present.
 - **Automated checks:** `npm run build` and `npm test` (2 tests) pass.
-- **Manual Chrome extension walkthrough:** pending; automated checks do not establish that the extension was installed or exercised in Chrome.
+- **Manual Chrome extension walkthrough:** the local demo rendered in Google Chrome; extension installation and the detection, approval, recovery, cancellation, and outcome-reporting flow were not manually verified. Automated checks do not establish that flow.
 - **Team:** Team X, Track 2 — Beyond the Browser.
