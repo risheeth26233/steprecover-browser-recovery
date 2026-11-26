@@ -1,2 +1,62 @@
-
-:root{font-family:"Aptos",Arial,sans-serif;color:#192736;background:#f4f6fa;font-synthesis:none;text-rendering:optimizeLegibility;font-weight:400;font-size:14px}*{box-sizing:border-box}body{margin:0;min-width:320px;min-height:100vh;background:radial-gradient(ellipse at 50% 17%,#fff 0,#f6f8fb 58%,#f1f4f8 100%)}button,input{font:inherit}.page-shell{max-width:1220px;margin:0 auto;padding:0 54px}.topbar{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e7ebf1}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:#142638;font-family:Aptos Display,sans-serif;font-size:13px;font-weight:800;letter-spacing:.12em}.brand-mark{width:27px;height:27px;border-radius:8px;background:#173e4d;color:#fff;display:grid;place-items:center;font-size:14px;letter-spacing:0}.brand-accent{color:#538a79}.demo-tag{font-size:9px;letter-spacing:.14em;font-weight:700;color:#788994;display:flex;gap:8px;align-items:center}.live-dot{height:7px;width:7px;border-radius:50%;background:#6baf94;box-shadow:0 0 0 3px #e5f2ed}.hero{display:grid;grid-template-columns:.9fr 1fr;gap:72px;align-items:center;padding:56px 0 43px}.hero-copy{padding:0 0 8px 16px}.eyebrow{font-size:9px;letter-spacing:.16em;font-weight:700;color:#689786;margin:0 0 13px}.hero h1{font-family:Aptos Display,sans-serif;font-size:clamp(38px,5vw,58px);line-height:1.08;letter-spacing:-.055em;margin:0;color:#182938;font-weight:700}.hero h1 span{color:#648e80}.hero-intro{font-size:14px;line-height:1.8;color:#6e7c88;max-width:350px;margin:23px 0 26px}.privacy-note{display:flex;align-items:center;gap:9px;color:#82909b;font-size:10px}.privacy-note span{font-size:19px;color:#6d9888}.registration-card{background:#fff;border:1px solid #e8edf2;border-radius:15px;padding:30px 33px 0;box-shadow:0 18px 54px rgba(32,54,72,.075);max-width:490px;width:100%;justify-self:end}.form-heading-row{display:flex;align-items:flex-start;justify-content:space-between}.form-heading-row .eyebrow{margin-bottom:8px}.form-heading-row h2{font-family:Aptos Display,sans-serif;font-weight:700;letter-spacing:-.035em;font-size:23px;margin:0}.step-count{color:#608c7c;font-weight:700;font-size:12px}.step-count i{font-style:normal;color:#a6b0b8;font-weight:500}.form-intro{color:#85919c;font-size:11px;margin:8px 0 21px}.field-label{display:block;font-weight:600;font-size:10px;color:#40505d;margin:16px 0 7px}.registration-card input:not([type=radio]){height:38px;width:100%;border:1px solid #e4e9ee;border-radius:6px;padding:0 11px;color:#34444f;background:#fcfdfe;outline:none;font-size:11px}.registration-card input:focus-visible{border-color:#709f8e;box-shadow:0 0 0 3px #eaf3ef}.registration-card input::placeholder{color:#b4bec6}.date-label{display:flex;justify-content:space-between;align-items:center}.date-label span{font-size:8px;letter-spacing:.12em;color:#a0aab2}.field-help{font-size:9px;line-height:1.5;color:#89949e;margin:7px 0 10px}.session-picker{border:1px solid #e7ecf0;border-radius:8px;overflow:hidden}.session-option{display:flex;align-items:center;gap:12px;min-height:51px;padding:6px 11px;border-bottom:1px solid #eef1f4;cursor:pointer;outline:none;user-select:none;background:#fff}.session-option:last-child{border-bottom:0}.session-option:hover{background:#f8fbf9}.session-option.selected{background:#f0f7f3;box-shadow:inset 3px 0 #73a48f}.session-date{width:28px;display:flex;flex-direction:column;align-items:center;color:#698f81;line-height:1}.session-date b{font-size:16px;font-family:Aptos Display,sans-serif}.session-date small{font-size:7px;letter-spacing:.12em;margin-top:3px}.session-copy{display:flex;flex-direction:column;gap:4px}.session-copy b{font-size:10px;color:#43525d}.session-copy small{font-size:9px;color:#96a1aa}.session-check{margin-left:auto;color:#5d937c;font-size:14px}.form-status{font-size:9px;min-height:12px;margin:8px 0 12px;color:#71887d}.form-footnote{border-top:1px solid #edf0f3;margin:0 -33px;padding:13px 33px;color:#8c99a2;background:#fbfcfd;border-radius:0 0 15px 15px;font-size:9px}.form-footnote span{color:#709c89;margin-right:5px}.flow-strip{border-top:1px solid #e5eaf0;border-bottom:1px solid #e5eaf0;min-height:62px;display:flex;align-items:center;justify-content:space-between;gap:16px}.flow-intro{display:flex;align-items:center;gap:9px;color:#82909c;letter-spacing:.11em;font-size:8px;font-weight:700}.flow-icon{font-size:17px;color:#679683}.flow-step{display:flex;align-items:center;gap:8px;font-size:9px;letter-spacing:.09em;color:#50616d;font-weight:700}.flow-number{font-family:Aptos Display,sans-serif;color:#83a899;font-size:9px}.flow-arrow{color:#b1bcc4;margin-left:9px;font-size:13px}.footer{padding:18px 0 24px;display:flex;justify-content:space-between;color:#9aa5ad;letter-spacing:.1em;font-size:8px;font-weight:600}@media(max-width:840px){.page-shell{padding:0 25px}.hero{gap:30px;grid-template-columns:.76fr 1fr}.hero-copy{padding-left:0}}@media(max-width:660px){.page-shell{padding:0 18px}.topbar{height:64px}.demo-tag{font-size:7px}.hero{grid-template-columns:1fr;gap:30px;padding-top:37px}.hero-copy{padding:0}.hero h1{font-size:42px}.hero-intro{margin:16px 0}.registration-card{justify-self:stretch;max-width:none;padding:25px 22px 0}.form-footnote{margin:0 -22px;padding-left:22px}.flow-strip{justify-content:flex-start;overflow:auto}.flow-intro{min-width:max-content}.flow-step{min-width:max-content}.footer{gap:8px;flex-wrap:wrap}.footer span{font-size:7px}}
+:root{font-family:"Segoe UI",Arial,sans-serif;color:#252a26;background:#f5f3ed;font-synthesis:none;text-rendering:optimizeLegibility;font-optical-sizing:auto;font-weight:400;--ink:#252a26;--muted:#777b72;--sage:#758f78;--sage-dark:#526e58;--line:#e6e3da;--paper:#fffefa}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-width:320px;min-height:100vh}
+button,input{font:inherit}
+.page-shell{min-height:100vh;overflow:hidden}
+.topbar{height:76px;padding:0 max(7vw,28px);display:flex;align-items:center;justify-content:space-between;background:#242a26;color:#fffefa}
+.brand{color:inherit;text-decoration:none;font:800 16px/1 "Segoe UI",sans-serif;letter-spacing:.045em}
+.brand-accent{color:#b6c4ac}
+.demo-tag{display:flex;align-items:center;gap:9px;color:#c1c5bd;font-size:9px;letter-spacing:.16em;font-weight:700}
+.live-dot{width:7px;height:7px;border-radius:50%;background:#a5bc9c;box-shadow:0 0 0 4px #a5bc9c24}
+.hero{max-width:1170px;margin:0 auto;padding:74px 34px 64px;display:grid;grid-template-columns:minmax(0,1fr) minmax(390px,455px);align-items:center;gap:9vw}
+.hero-copy{max-width:540px;padding-bottom:8px}
+.eyebrow{color:var(--sage-dark);font-size:10px;line-height:1.4;letter-spacing:.17em;font-weight:700;margin:0 0 19px}
+.hero h1{font:700 clamp(46px,5.8vw,72px)/1.04 "Segoe UI",sans-serif;letter-spacing:-.065em;color:var(--ink);margin:0}
+.hero h1 span{color:var(--sage)}
+.hero-intro{max-width:435px;color:#646a61;font-size:15px;line-height:1.75;margin:23px 0 27px}
+.privacy-note{display:flex;align-items:flex-start;gap:12px;color:#686e64;font-size:11px;line-height:1.55}
+.privacy-note b{font-weight:700;color:#30382f}
+.privacy-mark{display:grid;place-items:center;width:22px;height:22px;flex:0 0 22px;border-radius:50%;background:#e3e9dd;color:#56745d;font-size:13px;font-weight:700}
+.registration-card{padding:29px 30px 22px;background:var(--paper);border:1px solid #e9e6dd;border-radius:12px;box-shadow:0 18px 54px #272e2610}
+.form-heading-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.form-heading-row .eyebrow{font-size:8px;margin-bottom:8px}
+.form-heading-row h2{font:700 24px/1.2 "Segoe UI",sans-serif;letter-spacing:-.045em;margin:0;color:var(--ink)}
+.step-count{color:#777b72;border:1px solid var(--line);padding:6px 8px;border-radius:4px;white-space:nowrap;font-size:8px;font-weight:700;letter-spacing:.1em}
+.form-intro{color:var(--muted);font-size:11px;margin:10px 0 19px}
+.registration-card form{display:flex;flex-direction:column}
+.field-label{font-size:10px;color:#3a4039;font-weight:700;margin:0 0 7px}
+.field-label.date-label{display:flex;align-items:center;justify-content:space-between;margin-top:13px}
+.date-label span{font-size:8px;color:#8b7050;letter-spacing:.1em}
+.registration-card input[type=text],.registration-card input[type=email]{height:40px;width:100%;padding:0 12px;border:1px solid #deded5;border-radius:5px;background:#fffefa;color:#30352f;outline:none;font-size:11px}
+.registration-card input::placeholder{color:#a4a69e}
+.registration-card input:focus-visible{border-color:var(--sage);box-shadow:0 0 0 3px #758f7826}
+.field-help{font-size:9px;line-height:1.55;color:#8a8b81;margin:7px 0 11px}
+.session-picker{display:flex;flex-direction:column;gap:6px}
+.session-option{min-height:58px;padding:8px 10px;display:flex;align-items:center;gap:12px;border:1px solid #e8e6de;border-radius:6px;background:#fffefa;cursor:pointer;transition:border-color .16s,background .16s,transform .16s}
+.session-option:hover{border-color:#a7b8a3;background:#f8faf5;transform:translateY(-1px)}
+.session-option.selected{border-color:var(--sage);background:#f2f5ef}
+.session-date{width:34px;height:38px;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:4px;background:#f0f1eb;color:#565e53}
+.session-date b{font:700 14px "Segoe UI",sans-serif;line-height:1}
+.session-date small{font-size:7px;letter-spacing:.08em;margin-top:3px}
+.session-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:4px}
+.session-copy b{font-size:10px;font-weight:600;color:#333a33}
+.session-copy small{font-size:9px;color:#85887f}
+.session-check{width:17px;height:17px;border:1px solid #d8dbd1;border-radius:50%;display:grid;place-items:center;color:#fff;background:#fff;font-size:10px}
+.session-option.selected .session-check{background:var(--sage);border-color:var(--sage)}
+.form-status{min-height:16px;margin:9px 0 0;color:#637d66;font-size:9px}
+.reset-button{align-self:flex-start;margin-top:8px;padding:0;border:0;background:transparent;color:#697266;font-size:9px;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.reset-button:hover{color:#3e5d45}
+.form-footnote{display:flex;align-items:center;gap:7px;border-top:1px solid #eeece5;margin-top:19px;padding-top:14px;color:#777b72;font-size:9px}
+.form-footnote span{color:var(--sage-dark)}
+.flow-strip{max-width:1170px;margin:0 auto;padding:21px 34px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid #e2dfd6;border-bottom:1px solid #e2dfd6}
+.flow-intro,.flow-step{display:flex;align-items:center;gap:10px;color:#596057;font-size:10px;font-weight:600}
+.flow-intro{color:#787b72;font-size:8px;letter-spacing:.12em}
+.flow-icon,.flow-number{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#e5e9df;color:#617a63;font-size:9px;font-weight:700}
+.flow-arrow{margin-left:11px;color:#acafa5;font-size:14px}
+.footer{max-width:1170px;margin:0 auto;padding:23px 34px 30px;display:flex;justify-content:space-between;gap:16px;color:#898b82;font-size:8px;letter-spacing:.1em}
+:focus-visible{outline:3px solid #8aa18a;outline-offset:3px}
+@media(max-width:850px){.hero{gap:38px;padding-top:58px;grid-template-columns:minmax(0,1fr) minmax(350px,420px)}.hero h1{font-size:55px}.flow-intro{max-width:120px;line-height:1.5}}
+@media(max-width:700px){.topbar{height:65px;padding:0 22px}.demo-tag{font-size:7px;letter-spacing:.1em}.hero{padding:50px 20px 42px;display:flex;flex-direction:column;align-items:stretch;gap:34px}.hero-copy{max-width:560px}.hero h1{font-size:clamp(44px,12vw,62px)}.hero-intro{font-size:13px;margin:17px 0 20px}.registration-card{max-width:520px;width:100%;margin:0 auto;padding:24px 21px 18px}.flow-strip{padding:17px 20px;flex-wrap:wrap;justify-content:flex-start;gap:12px 18px}.flow-intro{flex-basis:100%;max-width:none}.flow-step{font-size:9px;gap:7px}.flow-arrow{margin-left:2px}.footer{padding:20px;flex-wrap:wrap;font-size:7px}.footer span:last-child{flex-basis:100%}}
+@media(max-width:390px){.demo-tag{max-width:140px;text-align:right;line-height:1.4}.registration-card{padding:21px 16px 17px}.form-heading-row h2{font-size:21px}.flow-step{gap:5px}.flow-arrow{display:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
