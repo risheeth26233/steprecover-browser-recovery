@@ -71,12 +71,12 @@ Pin or open **StepRecover — Controlled Demo** from the Chrome toolbar while th
 - Detection uses DOM signals and is not a complete assistive-technology audit.
 - The side panel accepts no other page origin and provides no general repair suggestions.
 - The unclear-validation-error scenario, broader site support, persistent storage, AI, and submission are not implemented.
-- Manual testing was performed on the local page in the in-app browser; the unpacked extension still needs a Chrome-profile install and full detection, approval, cancellation, recovery, and outcome walkthrough. Automated checks do not replace testing with screen readers or browser accessibility tools.
+- Manual testing was performed on the local page in the in-app browser and the unpacked extension in Chrome's **Person 1** profile. The flow covered detection, reviewed approval, Cancel, Escape, recovery, exact outcome evidence, and stale approval invalidation on page reload. Automated checks do not replace testing with screen readers or browser accessibility tools.
 
 ## Status
 
 - **Prototype implementation:** source, local demo, and unpacked extension build are present.
 - **Automated checks:** `npm run build` and `npm test` (3 tests) pass.
 - **Local page walkthrough:** the page rendered, date selection updated the field and status, Enter did not submit or navigate, and Reset cleared the fields and returned focus to the name field.
-- **Manual Chrome extension walkthrough:** not yet completed. Extension installation and the detection, approval, recovery, cancellation, and outcome-reporting flow remain unverified until the unpacked extension is loaded in Chrome.
+- **Manual Chrome extension walkthrough:** passed in Chrome's **Person 1** profile. Detection identified the date picker; Cancel and Escape left it empty; approving Friday, November 27 updated the field and accepted status; the panel reported the exact field/status and “Form submitted: No”; reloading during a pending approval invalidated that approval without applying it.
 - **Team:** Team X, Track 2 — Beyond the Browser.

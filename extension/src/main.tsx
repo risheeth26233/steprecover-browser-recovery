@@ -208,11 +208,9 @@ function Panel() {
     try {
       const activeTab = await activeDemoTab();
       if (activeTab.id === undefined || activeTab.windowId === undefined) throw new Error("The approved tab is no longer available.");
-      const currentTab = {
-        tabId: activeTab.id, windowId: activeTab.windowId, url: activeTab.url ?? "",
-        fingerprint: action.fingerprint, date: action.date, availableDates: action.availableDates,
-      };
-      if (!isApprovalCurrent(action, currentTab) || action.url !== activeTab.url) throw new Error("The active tab changed after approval. No recovery was applied.");
+      if (action.tabId !== activeTab.id || action.windowId !== activeTab.windowId || action.url !== activeTab.url) {
+        throw new Error("The active tab changed after approval. No recovery was applied.");
+      }
       const currentSnapshotResult = await chrome.scripting.executeScript({ target: { tabId: action.tabId }, func: inspectOrRecoverPage, args: ["inspect"] });
       const currentSnapshot = currentSnapshotResult[0]?.result as PageSnapshot | undefined;
       const fresh = {
